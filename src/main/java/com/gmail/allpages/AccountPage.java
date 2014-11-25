@@ -53,17 +53,20 @@ public class AccountPage extends Page {
 		return userLogo.isDisplayed();
 	}
 
-	public void writeMail(String adress, String subject, String content) {
+	public void writeMail(String address, String subject, String content) {
 		writeMail.click();
-		//adressTo.sendKeys(adress);
-		//subjectOfMail.sendKeys(subject);
+		//addressTo.sendKeys(address); //Commented out for negative test
+		// subjectOfMail.sendKeys(subject); //Commented out for negative test
 		WebElement frame1 = webDriver.findElement(By
-				.xpath("//iframe[@tabindex='1']"));
-		webDriver.switchTo().frame(frame1);
+				.cssSelector("div[class='Am Al editable LW-avf']"));
+		frame1.sendKeys(content);
+		
+		/* This block worked in earlier versions Gmail and Selenium.
+		webDriver.switchTo().frame(frame1); 
 		WebElement editable = webDriver.switchTo().activeElement();
-		//String mailBody = "Hi," + '\n' + "Gmail Body";
 		editable.sendKeys(content);
-		webDriver.switchTo().defaultContent();
+		webDriver.switchTo().defaultContent();*/
+		
 		sendMail.click();
 	}
 
