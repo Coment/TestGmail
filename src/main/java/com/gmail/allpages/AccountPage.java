@@ -53,6 +53,7 @@ public class AccountPage extends Page {
 		return userLogo.isDisplayed();
 	}
 
+<<<<<<< HEAD
 	public void writeMail(String adress, String subject, String content) {
 		writeMail.click();
 		//adressTo.click();
@@ -68,6 +69,25 @@ public class AccountPage extends Page {
 		//webDriver.switchTo().defaultContent();
 		sendMail.click();
 	}
+=======
+	public void writeMail(String address, String subject, String content) {
+		writeMail.click();
+		//addressTo.sendKeys(address); //Commented out for negative test
+		// subjectOfMail.sendKeys(subject); //Commented out for negative test
+		WebElement frame1 = webDriver.findElement(By
+				.cssSelector("div[class='Am Al editable LW-avf']"));
+		frame1.sendKeys(content);
+		
+		/* This block worked in earlier versions Gmail and Selenium.
+		webDriver.switchTo().frame(frame1); 
+		WebElement editable = webDriver.switchTo().activeElement();
+		editable.sendKeys(content);
+		webDriver.switchTo().defaultContent();*/
+		
+		sendMail.click();
+	}
+
+>>>>>>> 8bfbdfe126c0dfee1707a37fa3d0baee4c8e360d
 	public boolean isErrorDisplayed() {
 		Reporter.log("Allert error", true);
 		return errorMessage.isDisplayed();

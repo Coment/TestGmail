@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Was performed on id("email")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag input<br><br>]]>
+    </line>
+    <line>
+      <![CDATA[Was performed on id("passwd")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag input<br><br>]]>
+    </line>
+    <line>
+      <![CDATA[Was performed on id("email")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag input<br><br>]]>
+    </line>
+    <line>
+      <![CDATA[Was performed on id("passwd")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag input<br><br>]]>
+    </line>
+    <line>
+      <![CDATA[Was cliked on webelement id("signin")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag input<br><br>]]>
+    </line>
+    <line>
+      <![CDATA[Loging to User Account Page with mail seleniumjavatest@gmail.com and password Javatest1]]>
+    </line>
+    <line>
+      <![CDATA[Was cliked on webelement id(":43")/div[1]/div[1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag div<br>Õ¿œ»—¿“»<br>]]>
+    </line>
+    <line>
+      <![CDATA[Was cliked on webelement id(":8q")<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag div<br>Õ‡‰≥ÒÎ‡ÚË<br>]]>
+    </line>
+    <line>
+      <![CDATA[Allert error]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Users\Yura\workspace\TestGmail/target/screenshots/openUserPage/openUserPage_11_03_2014_12_34_52.png target='_blank' ><p><br/><img src="file:///C:\Users\Yura\workspace\TestGmail/target/screenshots/openUserPage/openUserPage_11_03_2014_12_34_52.png" width="600" height="338" alt=""/><br/></p></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="TestingBasics" duration-ms="65897" started-at="2014-03-11T10:33:47Z" finished-at="2014-03-11T10:34:53Z">
+    <groups>
+      <group name="group">
+        <method signature="LoginPageTestSuite.openUserPage()[pri:0, instance:com.gmail.testcases.LoginPageTestSuite@5302f26d]" name="openUserPage" class="com.gmail.testcases.LoginPageTestSuite"/>
+      </group> <!-- group -->
+    </groups>
+    <test name="TestLQAS" duration-ms="65897" started-at="2014-03-11T10:33:47Z" finished-at="2014-03-11T10:34:53Z">
+      <class name="com.gmail.testcases.LoginPageTestSuite">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.gmail.testcases.LoginPageTestSuite@5302f26d]" name="init" is-config="true" duration-ms="20618" started-at="2014-03-11T12:33:47Z" finished-at="2014-03-11T12:34:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="openUserPage()[pri:0, instance:com.gmail.testcases.LoginPageTestSuite@5302f26d]" name="openUserPage" duration-ms="40751" started-at="2014-03-11T12:34:08Z" finished-at="2014-03-11T12:34:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Was performed on id("email")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag input<br><br>]]>
+            </line>
+            <line>
+              <![CDATA[Was performed on id("passwd")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag input<br><br>]]>
+            </line>
+            <line>
+              <![CDATA[Was performed on id("email")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag input<br><br>]]>
+            </line>
+            <line>
+              <![CDATA[Was performed on id("passwd")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag input<br><br>]]>
+            </line>
+            <line>
+              <![CDATA[Was cliked on webelement id("signin")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag input<br><br>]]>
+            </line>
+            <line>
+              <![CDATA[Loging to User Account Page with mail seleniumjavatest@gmail.com and password Javatest1]]>
+            </line>
+            <line>
+              <![CDATA[Was cliked on webelement id(":43")/div[1]/div[1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag div<br>Õ¿œ»—¿“»<br>]]>
+            </line>
+            <line>
+              <![CDATA[Was cliked on webelement id(":8q")<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag div<br>Õ‡‰≥ÒÎ‡ÚË<br>]]>
+            </line>
+            <line>
+              <![CDATA[Allert error]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Users\Yura\workspace\TestGmail/target/screenshots/openUserPage/openUserPage_11_03_2014_12_34_52.png target='_blank' ><p><br/><img src="file:///C:\Users\Yura\workspace\TestGmail/target/screenshots/openUserPage/openUserPage_11_03_2014_12_34_52.png" width="600" height="338" alt=""/><br/></p></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openUserPage -->
+        <test-method status="PASS" signature="reopenApp()[pri:0, instance:com.gmail.testcases.LoginPageTestSuite@5302f26d]" name="reopenApp" is-config="true" duration-ms="605" started-at="2014-03-11T12:34:52Z" finished-at="2014-03-11T12:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reopenApp -->
+      </class> <!-- com.gmail.testcases.LoginPageTestSuite -->
+    </test> <!-- TestLQAS -->
+  </suite> <!-- TestingBasics -->
+</testng-results>

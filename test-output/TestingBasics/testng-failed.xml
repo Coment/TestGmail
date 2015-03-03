@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="5" name="Failed suite [TestingBasics]" data-provider-thread-count="1">
+  <parameter name="browserName" value="firefox"/>
+  <listeners>
+    <listener class-name="com.gmail.testbase.MyTestListener"/>
+  </listeners>
+  <test name="TestLQAS(failed)">
+    <groups>
+      <run>
+        <include name="group"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.gmail.testcases.LoginPageTestSuite">
+        <methods>
+          <include name="openUserPage"/>
+          <include name="init"/>
+          <include name="reopenApp"/>
+        </methods>
+      </class> <!-- com.gmail.testcases.LoginPageTestSuite -->
+    </classes>
+  </test> <!-- TestLQAS(failed) -->
+</suite> <!-- Failed suite [TestingBasics] -->
