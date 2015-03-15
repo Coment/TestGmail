@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="5" name="Failed suite [TestingBasics]" data-provider-thread-count="1">
+  <parameter name="currencyUsd" value="USD"/>
   <parameter name="browserName" value="firefox"/>
+  <parameter name="currencyEur" value="EUR"/>
   <listeners>
-    <listener class-name="com.gmail.testbase.MyTestListener"/>
+    <listener class-name="com.finkurs.testbase.MyTestListener"/>
   </listeners>
-  <test name="TestLQAS(failed)">
+  <test name="KursExcell(failed)">
     <groups>
       <run>
         <include name="group"/>
       </run>
     </groups>
     <classes>
-      <class name="com.gmail.testcases.LoginPageTestSuite">
+      <class name="com.finkurs.testcases.UsdRateTestCase">
         <methods>
-          <include name="openUserPage"/>
+          <include name="UsdVerificationPage"/>
           <include name="init"/>
           <include name="reopenApp"/>
         </methods>
-      </class> <!-- com.gmail.testcases.LoginPageTestSuite -->
+      </class> <!-- com.finkurs.testcases.UsdRateTestCase -->
+      <class name="com.finkurs.testcases.EurRateTestCase">
+        <methods>
+          <include name="EurVerificationPage"/>
+          <include name="init"/>
+          <include name="reopenApp"/>
+        </methods>
+      </class> <!-- com.finkurs.testcases.EurRateTestCase -->
     </classes>
-  </test> <!-- TestLQAS(failed) -->
+  </test> <!-- KursExcell(failed) -->
 </suite> <!-- Failed suite [TestingBasics] -->

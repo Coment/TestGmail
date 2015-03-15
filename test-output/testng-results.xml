@@ -1,70 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[Was performed on id("email")<br>]]>
+      <![CDATA[Was cliked on webelement body/div[4]/ul[1]/li[4]/a[1]<br>]]>
     </line>
     <line>
-      <![CDATA[Element tag input<br><br>]]>
+      <![CDATA[Element tag a<br>Õ¡”<br>]]>
     </line>
     <line>
-      <![CDATA[Was performed on id("passwd")<br>]]>
+      <![CDATA[Was cliked on webelement id("header_content")/div[2]/ul[1]/li[4]/a[1]<br>]]>
     </line>
     <line>
-      <![CDATA[Element tag input<br><br>]]>
-    </line>
-    <line>
-      <![CDATA[Was performed on id("email")<br>]]>
-    </line>
-    <line>
-      <![CDATA[Element tag input<br><br>]]>
-    </line>
-    <line>
-      <![CDATA[Was performed on id("passwd")<br>]]>
-    </line>
-    <line>
-      <![CDATA[Element tag input<br><br>]]>
-    </line>
-    <line>
-      <![CDATA[Was cliked on webelement id("signin")<br>]]>
-    </line>
-    <line>
-      <![CDATA[Element tag input<br><br>]]>
-    </line>
-    <line>
-      <![CDATA[Loging to User Account Page with mail seleniumjavatest@gmail.com and password Javatest1]]>
-    </line>
-    <line>
-      <![CDATA[Was cliked on webelement id(":43")/div[1]/div[1]<br>]]>
-    </line>
-    <line>
-      <![CDATA[Element tag div<br>Õ¿œ»—¿“»<br>]]>
-    </line>
-    <line>
-      <![CDATA[Was cliked on webelement id(":8q")<br>]]>
-    </line>
-    <line>
-      <![CDATA[Element tag div<br>Õ‡‰≥ÒÎ‡ÚË<br>]]>
-    </line>
-    <line>
-      <![CDATA[Allert error]]>
+      <![CDATA[Element tag a<br>Ã≈∆¡¿Õ <br>]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[<a href=C:\Users\Yura\workspace\TestGmail/target/screenshots/openUserPage/openUserPage_11_03_2014_12_34_52.png target='_blank' ><p><br/><img src="file:///C:\Users\Yura\workspace\TestGmail/target/screenshots/openUserPage/openUserPage_11_03_2014_12_34_52.png" width="600" height="338" alt=""/><br/></p></a>]]>
+      <![CDATA[<a href=C:\Users\Yura\workspace\TestGmail/target/screenshots/UsdVerificationPage/UsdVerificationPage_15_03_2015_06_27_26.png target='_blank' ><p><br/><img src="file:///C:\Users\Yura\workspace\TestGmail/target/screenshots/UsdVerificationPage/UsdVerificationPage_15_03_2015_06_27_26.png" width="600" height="338" alt=""/><br/></p></a>]]>
+    </line>
+    <line>
+      <![CDATA[Was cliked on webelement body/div[4]/ul[1]/li[4]/a[1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag a<br>Õ¡”<br>]]>
+    </line>
+    <line>
+      <![CDATA[Was cliked on webelement id("header_content")/div[2]/ul[1]/li[4]/a[1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element tag a<br>Ã≈∆¡¿Õ <br>]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Users\Yura\workspace\TestGmail/target/screenshots/EurVerificationPage/EurVerificationPage_15_03_2015_06_28_01.png target='_blank' ><p><br/><img src="file:///C:\Users\Yura\workspace\TestGmail/target/screenshots/EurVerificationPage/EurVerificationPage_15_03_2015_06_28_01.png" width="600" height="338" alt=""/><br/></p></a>]]>
     </line>
   </reporter-output>
-  <suite name="TestingBasics" duration-ms="65897" started-at="2014-03-11T10:33:47Z" finished-at="2014-03-11T10:34:53Z">
+  <suite name="TestingBasics" duration-ms="78055" started-at="2015-03-15T16:26:44Z" finished-at="2015-03-15T16:28:02Z">
     <groups>
       <group name="group">
-        <method signature="LoginPageTestSuite.openUserPage()[pri:0, instance:com.gmail.testcases.LoginPageTestSuite@5302f26d]" name="openUserPage" class="com.gmail.testcases.LoginPageTestSuite"/>
+        <method signature="EurRateTestCase.EurVerificationPage()[pri:0, instance:com.finkurs.testcases.EurRateTestCase@702a5cfd]" name="EurVerificationPage" class="com.finkurs.testcases.EurRateTestCase"/>
+        <method signature="UsdRateTestCase.UsdVerificationPage()[pri:0, instance:com.finkurs.testcases.UsdRateTestCase@403d0d64]" name="UsdVerificationPage" class="com.finkurs.testcases.UsdRateTestCase"/>
       </group> <!-- group -->
     </groups>
-    <test name="TestLQAS" duration-ms="65897" started-at="2014-03-11T10:33:47Z" finished-at="2014-03-11T10:34:53Z">
-      <class name="com.gmail.testcases.LoginPageTestSuite">
-        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.gmail.testcases.LoginPageTestSuite@5302f26d]" name="init" is-config="true" duration-ms="20618" started-at="2014-03-11T12:33:47Z" finished-at="2014-03-11T12:34:08Z">
+    <test name="KursExcell" duration-ms="78055" started-at="2015-03-15T16:26:44Z" finished-at="2015-03-15T16:28:02Z">
+      <class name="com.finkurs.testcases.EurRateTestCase">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.finkurs.testcases.EurRateTestCase@702a5cfd]" name="init" is-config="true" duration-ms="12059" started-at="2015-03-15T18:27:27Z" finished-at="2015-03-15T18:27:39Z">
           <params>
             <param index="0">
               <value>
@@ -75,69 +58,72 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="openUserPage()[pri:0, instance:com.gmail.testcases.LoginPageTestSuite@5302f26d]" name="openUserPage" duration-ms="40751" started-at="2014-03-11T12:34:08Z" finished-at="2014-03-11T12:34:49Z">
+        <test-method status="PASS" signature="EurVerificationPage()[pri:0, instance:com.finkurs.testcases.EurRateTestCase@702a5cfd]" name="EurVerificationPage" duration-ms="21054" started-at="2015-03-15T18:27:39Z" finished-at="2015-03-15T18:28:00Z">
           <reporter-output>
             <line>
-              <![CDATA[Was performed on id("email")<br>]]>
+              <![CDATA[Was cliked on webelement body/div[4]/ul[1]/li[4]/a[1]<br>]]>
             </line>
             <line>
-              <![CDATA[Element tag input<br><br>]]>
+              <![CDATA[Element tag a<br>Õ¡”<br>]]>
             </line>
             <line>
-              <![CDATA[Was performed on id("passwd")<br>]]>
+              <![CDATA[Was cliked on webelement id("header_content")/div[2]/ul[1]/li[4]/a[1]<br>]]>
             </line>
             <line>
-              <![CDATA[Element tag input<br><br>]]>
-            </line>
-            <line>
-              <![CDATA[Was performed on id("email")<br>]]>
-            </line>
-            <line>
-              <![CDATA[Element tag input<br><br>]]>
-            </line>
-            <line>
-              <![CDATA[Was performed on id("passwd")<br>]]>
-            </line>
-            <line>
-              <![CDATA[Element tag input<br><br>]]>
-            </line>
-            <line>
-              <![CDATA[Was cliked on webelement id("signin")<br>]]>
-            </line>
-            <line>
-              <![CDATA[Element tag input<br><br>]]>
-            </line>
-            <line>
-              <![CDATA[Loging to User Account Page with mail seleniumjavatest@gmail.com and password Javatest1]]>
-            </line>
-            <line>
-              <![CDATA[Was cliked on webelement id(":43")/div[1]/div[1]<br>]]>
-            </line>
-            <line>
-              <![CDATA[Element tag div<br>Õ¿œ»—¿“»<br>]]>
-            </line>
-            <line>
-              <![CDATA[Was cliked on webelement id(":8q")<br>]]>
-            </line>
-            <line>
-              <![CDATA[Element tag div<br>Õ‡‰≥ÒÎ‡ÚË<br>]]>
-            </line>
-            <line>
-              <![CDATA[Allert error]]>
+              <![CDATA[Element tag a<br>Ã≈∆¡¿Õ <br>]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
             <line>
-              <![CDATA[<a href=C:\Users\Yura\workspace\TestGmail/target/screenshots/openUserPage/openUserPage_11_03_2014_12_34_52.png target='_blank' ><p><br/><img src="file:///C:\Users\Yura\workspace\TestGmail/target/screenshots/openUserPage/openUserPage_11_03_2014_12_34_52.png" width="600" height="338" alt=""/><br/></p></a>]]>
+              <![CDATA[<a href=C:\Users\Yura\workspace\TestGmail/target/screenshots/EurVerificationPage/EurVerificationPage_15_03_2015_06_28_01.png target='_blank' ><p><br/><img src="file:///C:\Users\Yura\workspace\TestGmail/target/screenshots/EurVerificationPage/EurVerificationPage_15_03_2015_06_28_01.png" width="600" height="338" alt=""/><br/></p></a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- openUserPage -->
-        <test-method status="PASS" signature="reopenApp()[pri:0, instance:com.gmail.testcases.LoginPageTestSuite@5302f26d]" name="reopenApp" is-config="true" duration-ms="605" started-at="2014-03-11T12:34:52Z" finished-at="2014-03-11T12:34:53Z">
+        </test-method> <!-- EurVerificationPage -->
+        <test-method status="PASS" signature="reopenApp()[pri:0, instance:com.finkurs.testcases.EurRateTestCase@702a5cfd]" name="reopenApp" is-config="true" duration-ms="222" started-at="2015-03-15T18:28:01Z" finished-at="2015-03-15T18:28:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reopenApp -->
-      </class> <!-- com.gmail.testcases.LoginPageTestSuite -->
-    </test> <!-- TestLQAS -->
+      </class> <!-- com.finkurs.testcases.EurRateTestCase -->
+      <class name="com.finkurs.testcases.UsdRateTestCase">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.finkurs.testcases.UsdRateTestCase@403d0d64]" name="init" is-config="true" duration-ms="15154" started-at="2015-03-15T18:26:44Z" finished-at="2015-03-15T18:26:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="UsdVerificationPage()[pri:0, instance:com.finkurs.testcases.UsdRateTestCase@403d0d64]" name="UsdVerificationPage" duration-ms="26451" started-at="2015-03-15T18:26:59Z" finished-at="2015-03-15T18:27:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Was cliked on webelement body/div[4]/ul[1]/li[4]/a[1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag a<br>Õ¡”<br>]]>
+            </line>
+            <line>
+              <![CDATA[Was cliked on webelement id("header_content")/div[2]/ul[1]/li[4]/a[1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element tag a<br>Ã≈∆¡¿Õ <br>]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Users\Yura\workspace\TestGmail/target/screenshots/UsdVerificationPage/UsdVerificationPage_15_03_2015_06_27_26.png target='_blank' ><p><br/><img src="file:///C:\Users\Yura\workspace\TestGmail/target/screenshots/UsdVerificationPage/UsdVerificationPage_15_03_2015_06_27_26.png" width="600" height="338" alt=""/><br/></p></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UsdVerificationPage -->
+        <test-method status="PASS" signature="reopenApp()[pri:0, instance:com.finkurs.testcases.UsdRateTestCase@403d0d64]" name="reopenApp" is-config="true" duration-ms="79" started-at="2015-03-15T18:27:26Z" finished-at="2015-03-15T18:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reopenApp -->
+      </class> <!-- com.finkurs.testcases.UsdRateTestCase -->
+    </test> <!-- KursExcell -->
   </suite> <!-- TestingBasics -->
 </testng-results>
