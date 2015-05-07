@@ -11,9 +11,9 @@ import org.openqa.selenium.WebDriverException;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.TestListenerAdapter;
-
 import com.gmail.webdriver.WebDriverFactory;
-/*
+
+/**
  * Class contains a method's for report's
  */
 
