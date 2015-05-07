@@ -53,23 +53,7 @@ public class AccountPage extends Page {
 		return userLogo.isDisplayed();
 	}
 
-<<<<<<< HEAD
-	public void writeMail(String adress, String subject, String content) {
-		writeMail.click();
-		//adressTo.click();
-		//adressTo.sendKeys(adress);
-		//subjectOfMail.sendKeys(subject);
-		WebElement frame1 = webDriver.findElement(By.cssSelector("div[class='Am Al editable LW-avf']"));
-		//WebElement frame1 = webDriver.findElement(By.xpath("//iframe[@tabindex='1']"));
-		//frame1.click();
-		//webDriver.switchTo().frame(frame1);
-		//WebElement editable = webDriver.switchTo().activeElement();
-		String mailBody = "Hi," + '\n' + "Gmail jar";
-		frame1.sendKeys(mailBody);
-		//webDriver.switchTo().defaultContent();
-		sendMail.click();
-	}
-=======
+	
 	public void writeMail(String address, String subject, String content) {
 		writeMail.click();
 		//addressTo.sendKeys(address); //Commented out for negative test
@@ -86,8 +70,6 @@ public class AccountPage extends Page {
 		
 		sendMail.click();
 	}
-
->>>>>>> 8bfbdfe126c0dfee1707a37fa3d0baee4c8e360d
 	public boolean isErrorDisplayed() {
 		Reporter.log("Allert error", true);
 		return errorMessage.isDisplayed();

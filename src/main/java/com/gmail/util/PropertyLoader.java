@@ -3,7 +3,7 @@ package com.gmail.util;
 import java.io.IOException;
 import java.util.Properties;
 
-/*
+/**
  * Class that extracts properties from the prop file.
  */
 public class PropertyLoader {

@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-<<<<<<< HEAD
+
 /**
  * 
  * @author Yurii Demchenko
@@ -15,7 +15,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 /*
  * 
  * @author Yuri Demchenko
->>>>>>> 8bfbdfe126c0dfee1707a37fa3d0baee4c8e360d
+
  */
 
 public class WebDriverFactory {

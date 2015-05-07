@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-TestingBasics">
-                    <span>C:\Users\Yura\workspace\TestGmail\src\test\resources\singletest.xml</span>
+                    <span>C:\Users\Yura\Downloads\TestGmailYurii\TestGmailYurii\src\test\resources\singletest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,12 +101,7 @@
                     <div class="method-list-content passed suite-TestingBasics">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestingBasics" title="com.finkurs.testcases.EurRateTestCase" hash-for-method="EurVerificationPage">EurVerificationPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestingBasics" title="com.finkurs.testcases.UsdRateTestCase" hash-for-method="UsdVerificationPage">UsdVerificationPage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingBasics" title="com.gmail.testcases.AccountPageTestSuite" hash-for-method="openUserPage">openUserPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestingBasics -->
@@ -124,29 +119,14 @@
           <div class="suite-TestingBasics-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.finkurs.testcases.UsdRateTestCase</span>
+              <span class="class-name">com.gmail.testcases.AccountPageTestSuite</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="UsdVerificationPage">
-                  </a> <!-- UsdVerificationPage -->
-                  <span class="method-name">UsdVerificationPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestingBasics-class-passed -->
-          <div class="suite-TestingBasics-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.finkurs.testcases.EurRateTestCase</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="EurVerificationPage">
-                  </a> <!-- EurVerificationPage -->
-                  <span class="method-name">EurVerificationPage</span>
+                  <a name="openUserPage">
+                  </a> <!-- openUserPage -->
+                  <span class="method-name">openUserPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -154,30 +134,27 @@
         </div> <!-- panel TestingBasics -->
         <div panel-name="test-xml-TestingBasics" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Yura\workspace\TestGmail\src\test\resources\singletest.xml</span>
+            <span class="header-content">C:\Users\Yura\Downloads\TestGmailYurii\TestGmailYurii\src\test\resources\singletest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite verbose=&quot;5&quot; name=&quot;TestingBasics&quot; data-provider-thread-count=&quot;1&quot;&gt;
-  &lt;parameter name=&quot;currencyUsd&quot; value=&quot;USD&quot;/&gt;
-  &lt;parameter name=&quot;currencyEur&quot; value=&quot;EUR&quot;/&gt;
   &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.finkurs.testbase.MyTestListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.gmail.testbase.MyTestListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;KursExcell&quot;&gt;
+  &lt;test name=&quot;TestGmail&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
         &lt;include name=&quot;group&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.finkurs.testcases.UsdRateTestCase&quot;/&gt;
-      &lt;class name=&quot;com.finkurs.testcases.EurRateTestCase&quot;/&gt;
+      &lt;class name=&quot;com.gmail.testcases.AccountPageTestSuite&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- KursExcell --&gt;
+  &lt;/test&gt; &lt;!-- TestGmail --&gt;
 &lt;/suite&gt; &lt;!-- TestingBasics --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,7 +166,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">KursExcell (2 classes)</span>
+                <span class="test-name">TestGmail (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -203,11 +180,7 @@
               <span class="test-group-name">group</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">EurVerificationPage</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">UsdVerificationPage</span>
+                <span class="method-in-group-name">openUserPage</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -227,20 +200,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'UsdVerificationPage')
-data.setCell(0, 2, 'com.finkurs.testcases.UsdRateTestCase')
-data.setCell(0, 3, 26451);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'EurVerificationPage')
-data.setCell(1, 2, 'com.finkurs.testcases.EurRateTestCase')
-data.setCell(1, 3, 21054);
+data.setCell(0, 1, 'openUserPage')
+data.setCell(0, 2, 'com.gmail.testcases.AccountPageTestSuite')
+data.setCell(0, 3, 17371);
 window.suiteTableData['TestingBasics']= { tableData: data, tableDiv: 'times-div-TestingBasics'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-TestingBasics">
               </div> <!-- times-div-TestingBasics -->
             </div> <!-- times-div -->
@@ -252,25 +221,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">EurVerificationPage</span>
+              <span class="reporter-method-name">openUserPage</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Was cliked on webelement body/div[4]/ul[1]/li[4]/a[1]<br></span>
-                <span class="reporter-method-output">Element tag a<br>Õ¡”<br></span>
-                <span class="reporter-method-output">Was cliked on webelement id("header_content")/div[2]/ul[1]/li[4]/a[1]<br></span>
-                <span class="reporter-method-output">Element tag a<br>Ã≈∆¡¿Õ <br></span>
+                <span class="reporter-method-output">Was performed on id("email")<br></span>
+                <span class="reporter-method-output">Element tag input<br><br></span>
+                <span class="reporter-method-output">Was performed on id("passwd")<br></span>
+                <span class="reporter-method-output">Element tag input<br><br></span>
+                <span class="reporter-method-output">Was performed on id("email")<br></span>
+                <span class="reporter-method-output">Element tag input<br><br></span>
+                <span class="reporter-method-output">Was performed on id("passwd")<br></span>
+                <span class="reporter-method-output">Element tag input<br><br></span>
+                <span class="reporter-method-output">Was cliked on webelement id("signin")<br></span>
+                <span class="reporter-method-output">Element tag input<br><br></span>
+                <span class="reporter-method-output">Loging to User Account Page with mail testcaseleniumjava@gmail.com and password testcase</span>
+                <span class="reporter-method-output">Was cliked on webelement id(":4i")/div[1]/div[1]<br></span>
+                <span class="reporter-method-output">Element tag div<br>Õ¿œ»—¿“»<br></span>
+                <span class="reporter-method-output">Was performed on id(":a2")<br></span>
+                <span class="reporter-method-output">Element tag div<br>Test mail with selenium<br></span>
+                <span class="reporter-method-output">Was cliked on webelement id(":8q")<br></span>
+                <span class="reporter-method-output">Element tag div<br>Õ‡‰≥ÒÎ‡ÚË<br></span>
+                <span class="reporter-method-output">Allert error</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output"><a href=C:\Users\Yura\workspace\TestGmail/target/screenshots/EurVerificationPage/EurVerificationPage_15_03_2015_06_28_01.png target='_blank' ><p><br/><img src="file:///C:\Users\Yura\workspace\TestGmail/target/screenshots/EurVerificationPage/EurVerificationPage_15_03_2015_06_28_01.png" width="600" height="338" alt=""/><br/></p></a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">UsdVerificationPage</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Was cliked on webelement body/div[4]/ul[1]/li[4]/a[1]<br></span>
-                <span class="reporter-method-output">Element tag a<br>Õ¡”<br></span>
-                <span class="reporter-method-output">Was cliked on webelement id("header_content")/div[2]/ul[1]/li[4]/a[1]<br></span>
-                <span class="reporter-method-output">Element tag a<br>Ã≈∆¡¿Õ <br></span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output"><a href=C:\Users\Yura\workspace\TestGmail/target/screenshots/UsdVerificationPage/UsdVerificationPage_15_03_2015_06_27_26.png target='_blank' ><p><br/><img src="file:///C:\Users\Yura\workspace\TestGmail/target/screenshots/UsdVerificationPage/UsdVerificationPage_15_03_2015_06_27_26.png" width="600" height="338" alt=""/><br/></p></a></span>
+                <span class="reporter-method-output"><a href=C:\Users\Yura\Downloads\TestGmailYurii\TestGmailYurii/target/screenshots/openUserPage/openUserPage_07_05_2015_01_03_37.png target='_blank' ><p><br/><img src="file:///C:\Users\Yura\Downloads\TestGmailYurii\TestGmailYurii/target/screenshots/openUserPage/openUserPage_07_05_2015_01_03_37.png" width="600" height="338" alt=""/><br/></p></a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -288,33 +260,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.finkurs.testcases.UsdRateTestCase</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.gmail.testcases.AccountPageTestSuite</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">init(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">UsdVerificationPage</span>
-                <span class="method-start">15154 ms</span>
+                <span class="method-name">openUserPage</span>
+                <span class="method-start">12768 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">reopenApp</span>
-                <span class="method-start">42798 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.finkurs.testcases.EurRateTestCase</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">init(firefox)</span>
-                <span class="method-start">42883 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">EurVerificationPage</span>
-                <span class="method-start">54942 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">reopenApp</span>
-                <span class="method-start">77808 ms</span>
+                <span class="method-start">33465 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

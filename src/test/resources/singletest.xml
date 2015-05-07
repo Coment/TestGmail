@@ -3,13 +3,11 @@
 <suite name="TestingBasics" verbose="5"
 	data-provider-thread-count="1">
 	<parameter name="browserName" value="firefox" />
-	<parameter name="currencyUsd" value="USD" />
-	<parameter name="currencyEur" value="EUR" />
 	<listeners>
-		<listener class-name="com.finkurs.testbase.MyTestListener"></listener>
+		<listener class-name="com.gmail.testbase.MyTestListener"></listener>
 	</listeners>
 
-	<test name="KursExcell">
+	<test name="TestGmail">
 		<groups>
 			<run>
 				<include name="group" />
@@ -17,13 +15,7 @@
 		</groups>
 
 		<classes>
-
-			<class name="com.finkurs.testcases.UsdRateTestCase" />
-			<class name="com.finkurs.testcases.EurRateTestCase" />
-
+			<class name="com.gmail.testcases.AccountPageTestSuite" />
 		</classes>
-
-		<!-- <packages> <package name="com.opower.testcase.testcategories.logintests"/> 
-			</packages> -->
 	</test>
 </suite>
