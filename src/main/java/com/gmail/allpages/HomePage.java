@@ -38,7 +38,7 @@ public class HomePage extends Page {
 		passwd.sendKeys(password);
 		submit.click();
 		//Reporting to html report view
-		Reporter.log("Loging to User Account Page with mail " + login + " and password " + password, true);
+		Reporter.log("Loging to User Account Page with e-mail " + login + " and password " + password, true);
 		return PageFactory.initElements(webDriver, AccountPage.class);
 	}
 }
