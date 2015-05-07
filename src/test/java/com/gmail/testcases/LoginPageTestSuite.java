@@ -7,7 +7,7 @@ import com.gmail.allpages.AccountPage;
 import com.gmail.testbase.TestBase;
 
 
-public class LoginPageTestSuite extends TestBase{
+public class LoginPageTestSuite extends TestBase{  
 	
 	@Test (groups = {"group"})
 	public void openUserPage() throws InterruptedException{
